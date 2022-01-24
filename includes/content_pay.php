@@ -1,6 +1,3 @@
-<?php
-
-echo<<<EOT
 
 
     <div class="row mt-5 flex-row">
@@ -28,55 +25,9 @@ echo<<<EOT
                 </tr>
             </thead>
             <tbody>
-                <tr>
-                    <td>Name</td>
-                    <td>L-Name</td>
-                    <td>123456</td>
-                    <td>DHS 1000,000</td>
-                    <td>DHS 5000,000</td>
-                    <td>15/01/2022</td>
-                    <td><i class="far fa-eye text-primary"></i></td>
-                </tr>
-                <tr>
-                    <td>Name</td>
-                    <td>L-Name</td>
-                    <td>123456</td>
-                    <td>DHS 1000,000</td>
-                    <td>DHS 5000,000</td>
-                    <td>15/01/2022</td>
-                    <td><i class="far fa-eye text-primary"></i></td>
-                </tr>
-                <tr>
-                    <td>Name</td>
-                    <td>L-Name</td>
-                    <td>123456</td>
-                    <td>DHS 1000,000</td>
-                    <td>DHS 5000,000</td>
-                    <td>15/01/2022</td>
-                    <td><i class="far fa-eye text-primary"></i></td>
-                </tr>
-                <tr>
-                    <td>Name</td>
-                    <td>L-Name</td>
-                    <td>123456</td>
-                    <td>DHS 1000,000</td>
-                    <td>DHS 5000,000</td>
-                    <td>15/01/2022</td>
-                    <td><i class="far fa-eye text-primary"></i></td>
-                </tr>
-                <tr>
-                    <td>Name</td>
-                    <td>L-Name</td>
-                    <td>123456</td>
-                    <td>DHS 1000,000</td>
-                    <td>DHS 5000,000</td>
-                    <td>15/01/2022</td>
-                    <td><i class="far fa-eye text-primary"></i></td>
-                </tr>
+                <?php
+                    include '../includes/tab_pay.php';
+                ?>
             </tbody>
         </table>
     </div>
-
-EOT;
-
-?>

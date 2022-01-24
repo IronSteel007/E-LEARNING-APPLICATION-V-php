@@ -1,8 +1,4 @@
 
-<?php
-
-echo<<<EOT
-
     <div class="row mt-5 flex-row">
         <div class="title col-lg-4 col-md-6 col-sm-12">
             <h2>Students List</h2>
@@ -31,122 +27,11 @@ echo<<<EOT
                 </tr>
             </thead>
             <tbody class="flex-column gap-2">
-                <tr class="mt-2">
-                    <th scope="row">
-                        <img src="../assets/img/profile.png" alt="Pro-img" width="65" height="55">
-                    </th>
-                    <td class="align-middle">Nom-Prenom</td>
-                    <td class="align-middle">nome-prenom@YCode@ycode.ma</td>
-                    <td class="align-middle">+2126........</td>
-                    <td class="align-middle">7657657658</td>
-                    <td class="align-middle">12/01/2022</td>
-                    <td class="text-primary align-middle">
-                        <i class="fas fa-pen pe-3"></i>
-                        <i class="fas fa-trash"></i>
-                    </td>
-                </tr>
-                <tr class="mt-2">
-                    <th scope="row">
-                        <img src="../assets/img/profile.png" alt="Pro-img" width="65" height="55">
-                    </th>
-                    <td class="align-middle">Nom-Prenom</td>
-                    <td class="align-middle">nome-prenom@YCode@ycode.ma</td>
-                    <td class="align-middle">+2126........</td>
-                    <td class="align-middle">7657657658</td>
-                    <td class="align-middle">12/01/2022</td>
-                    <td class="text-primary align-middle">
-                        <i class="fas fa-pen pe-3"></i>
-                        <i class="fas fa-trash"></i>
-                    </td>
-                </tr>
-                <tr class="mt-2">
-                    <th scope="row">
-                        <img src="../assets/img/profile.png" alt="Pro-img" width="65" height="55">
-                    </th>
-                    <td class="align-middle">Nom-Prenom</td>
-                    <td class="align-middle">nome-prenom@YCode@ycode.ma</td>
-                    <td class="align-middle">+2126........</td>
-                    <td class="align-middle">7657657658</td>
-                    <td class="align-middle">12/01/2022</td>
-                    <td class="text-primary align-middle">
-                        <i class="fas fa-pen pe-3"></i>
-                        <i class="fas fa-trash"></i>
-                    </td>
-                </tr>
-                <tr class="mt-2">
-                    <th scope="row">
-                        <img src="../assets/img/profile.png" alt="Pro-img" width="65" height="55">
-                    </th>
-                    <td class="align-middle">Nom-Prenom</td>
-                    <td class="align-middle">nome-prenom@YCode@ycode.ma</td>
-                    <td class="align-middle">+2126........</td>
-                    <td class="align-middle">7657657658</td>
-                    <td class="align-middle">12/01/2022</td>
-                    <td class="text-primary align-middle">
-                        <i class="fas fa-pen pe-3"></i>
-                        <i class="fas fa-trash"></i>
-                    </td>
-                </tr>
-                <tr class="mt-2">
-                    <th scope="row">
-                        <img src="../assets/img/profile.png" alt="Pro-img" width="65" height="55">
-                    </th>
-                    <td class="align-middle">Nom-Prenom</td>
-                    <td class="align-middle">nome-prenom@YCode@ycode.ma</td>
-                    <td class="align-middle">+2126........</td>
-                    <td class="align-middle">7657657658</td>
-                    <td class="align-middle">12/01/2022</td>
-                    <td class="text-primary align-middle">
-                        <i class="fas fa-pen pe-3"></i>
-                        <i class="fas fa-trash"></i>
-                    </td>
-                </tr>
-                <tr class="mt-2">
-                    <th scope="row">
-                        <img src="../assets/img/profile.png" alt="Pro-img" width="65" height="55">
-                    </th>
-                    <td class="align-middle">Nom-Prenom</td>
-                    <td class="align-middle">nome-prenom@YCode@ycode.ma</td>
-                    <td class="align-middle">+2126........</td>
-                    <td class="align-middle">7657657658</td>
-                    <td class="align-middle">12/01/2022</td>
-                    <td class="text-primary align-middle">
-                        <i class="fas fa-pen pe-3"></i>
-                        <i class="fas fa-trash"></i>
-                    </td>
-                </tr>
-                <tr class="mt-2">
-                    <th scope="row">
-                        <img src="../assets/img/profile.png" alt="Pro-img" width="65" height="55">
-                    </th>
-                    <td class="align-middle">Nom-Prenom</td>
-                    <td class="align-middle">nome-prenom@YCode@ycode.ma</td>
-                    <td class="align-middle">+2126........</td>
-                    <td class="align-middle">7657657658</td>
-                    <td class="align-middle">12/01/2022</td>
-                    <td class="text-primary align-middle">
-                        <i class="fas fa-pen pe-3"></i>
-                        <i class="fas fa-trash"></i>
-                    </td>
-                </tr>
-                <tr class="mt-2">
-                    <th scope="row">
-                        <img src="../assets/img/profile.png" alt="Pro-img" width="65" height="55">
-                    </th>
-                    <td class="align-middle">Nom-Prenom</td>
-                    <td class="align-middle">nome-prenom@YCode@ycode.ma</td>
-                    <td class="align-middle">+2126........</td>
-                    <td class="align-middle">7657657658</td>
-                    <td class="align-middle">12/01/2022</td>
-                    <td class="text-primary align-middle">
-                        <i class="fas fa-pen pe-3"></i>
-                        <i class="fas fa-trash"></i>
-                    </td>
-                </tr>
+
+                <?php
+                    include '../includes/tab_stud.php';
+                ?>
+
             </tbody>
         </table>
     </div>
-
-EOT;
-
-?>

@@ -1,6 +1,6 @@
 <?php
 
-echo<<<EOT
+echo<<<'EOT'
  <div class="">
                         <a href="../index.php"><i class="fas fa-bars text-muted"></i></a>
                     </div>

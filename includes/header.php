@@ -1,6 +1,6 @@
 <?php
 
-echo<<<EOT
+echo<<<'EOT'
 
 <!DOCTYPE html>
 <html lang="en">

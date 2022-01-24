@@ -1,6 +1,6 @@
 <?php
 
-echo<<<EOT
+echo<<<'EOT'
 <div class="col-sm-12 col-md-6 col-lg-3 ">
 <div class="card" style="font-size: 1.5rem; background-color: #F0F9FF
 ; color: #74C1ED;">
