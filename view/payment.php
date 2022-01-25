@@ -8,16 +8,16 @@
         ?>
     </div>
     <div class="col-lg-10 col-md-8 col-sm-6 col-xs-12">
-        <div class="d-flex justify-content-between mt-3">
+        
             <?php
                 include '../includes/navbar.php';
             ?>
-        </div>
-        <div class="row mt-2">
+        
+        
             <?php
                 include '../includes/content_pay.php';
             ?>
-        </div>
+        
     </div>
 </div>
 

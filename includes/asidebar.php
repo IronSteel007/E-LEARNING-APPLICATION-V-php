@@ -1,7 +1,7 @@
 <?php
 
 echo<<<'EOT'
-<div class="flex-column back-colo col-lg-2 col-md-4 col-sm-6 col-xs-12 ">
+<div id="sidebar" class="flex-column back-colo col-lg-2 col-md-4 col-sm-6 col-xs-12 ">
                 <div class="p-3 mt-2">
                     <h1 class="h3 e-c">E-Classe</h1>
                 </div>

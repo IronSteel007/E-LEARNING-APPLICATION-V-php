@@ -1,6 +1,5 @@
 
-
-    <div class="row mt-5 flex-row">
+    <div class="d-flex justify-content-between mt-3">
         <div class="title col-lg-4 col-md-6 col-sm-12">
             <h2>Payements list</h2>
         </div>
@@ -9,8 +8,10 @@
                 <i class="fas fa-sort text-primary"></i>
             </div>
         </div>
-        <hr>
     </div>
+        
+        <hr>
+
     <div class="row mt-5 px-5">
         <table class="table table-striped">
             <thead>
