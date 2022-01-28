@@ -1,25 +1,22 @@
 <?php
     include '../includes/header.php';
 ?>
-<div class="container-fluid">
-    <div class="row" style="height: 100vh;">
-        <?php
-            include '../includes/asidebar.php';
-        ?>
-    </div>
-    <div class="col-lg-10 col-md-8 col-sm-6 col-xs-12">
-        
+    <div class="container-fluid sm">
+        <div class="d-flex vh-100 ">
             <?php
-                include '../includes/navbar.php';
+                include '../includes/asidebar.php';
             ?>
-        
-        <div class="">
-            <?php
-                include '../includes/content_stud.php';
-            ?>
+            <div id="main" class="right w-100">
+                <?php
+                    include '../includes/navbar.php';
+                ?>
+
+                <?php
+                    include '../includes/content_stud.php';
+                ?>
+            </div>
         </div>
     </div>
-</div>
 
 <?php
     include '../includes/footer.php';

@@ -1,67 +1,9 @@
 <?php 
+$tab_stud = file_get_contents("../users/tab_stud.json");
+$tab_stud = json_decode($tab_stud,true);
 
-$tab_student = [
 
-
-
-    [
-
-        'Name' => 'Kouzbour',
-        'Email' => 'yahya.Kouzbour.tech@youcode.ma',
-        'Phone' => '0621307241',
-        'Enroll_number' => '00001',
-        'Date_of_admission' => '12/01/2022',
-
-    ],
-
-    [
-
-        'Name' => 'Kouzbour',
-        'Email' => 'yahya.Kouzbour.tech@youcode.ma',
-        'Phone' => '0621307241',
-        'Enroll_number' => '00001',
-        'Date_of_admission' => '12/01/2022',
-
-    ],
-    [
-
-        'Name' => 'Kouzbour',
-        'Email' => 'yahya.Kouzbour.tech@youcode.ma',
-        'Phone' => '0621307241',
-        'Enroll_number' => '00001',
-        'Date_of_admission' => '12/01/2022',
-
-    ],
-    [
-
-        'Name' => 'Kouzbour',
-        'Email' => 'yahya.Kouzbour.tech@youcode.ma',
-        'Phone' => '0621307241',
-        'Enroll_number' => '00001',
-        'Date_of_admission' => '12/01/2022',
-
-    ],
-    [
-
-        'Name' => 'Kouzbour',
-        'Email' => 'yahya.Kouzbour.tech@youcode.ma',
-        'Phone' => '0621307241',
-        'Enroll_number' => '00001',
-        'Date_of_admission' => '12/01/2022',
-
-    ],
-    [
-
-        'Name' => 'Kouzbour',
-        'Email' => 'yahya.Kouzbour.tech@youcode.ma',
-        'Phone' => '0621307241',
-        'Enroll_number' => '00001',
-        'Date_of_admission' => '12/01/2022',
-
-    ]
-
-];
-foreach ($tab_student as $tabb){
+foreach ($tab_stud as $tabb){
 
 echo '<tr class="mt-2">
 
@@ -80,13 +22,4 @@ echo '<tr class="mt-2">
 </tr>';
 
 }
-
-
-
-
-
-
-
 ?>
-
-

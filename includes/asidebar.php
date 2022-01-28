@@ -1,9 +1,10 @@
 <?php
 
 echo<<<'EOT'
-<div id="sidebar" class="flex-column back-colo col-lg-2 col-md-4 col-sm-6 col-xs-12 ">
+<div id="mySidenav" class="left sidenav">
                 <div class="p-3 mt-2">
                     <h1 class="h3 e-c">E-Classe</h1>
+                    <a href="javascript:void(0)" id="closebtn_" class="closebtn">&times;</a>
                 </div>
                 <div class="d-flex flex-column align-items-center mt-3">
                     <img class="rounded-circle avatar " src="../assets/img/avatar.jpeg" alt="avatar image" width="100" height="100">
@@ -39,6 +40,7 @@ echo<<<'EOT'
                 <div class="d-flex justify-content-center  mt-5">
                     <a href="../index.php" class="btn nav-link btn marg-t">Logout <i class="fas fa-sign-out-alt text-dark"></i></a>
                 </div>
+            </div>
 
 EOT;
 

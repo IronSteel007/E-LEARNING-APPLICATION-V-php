@@ -1,52 +1,8 @@
 <?php 
+$tab_pay = file_get_contents("../users/tab_pay.json");
+$tab_pay = json_decode($tab_pay,true);
 
-$pay_student = [
-
-
-
-    [
-
-        'Name' => 'Kouzbour',
-        'Payment_Shedule' => 'Kouzbour',
-        'Bill_Number' => '123456',
-        'Amount_Paid' => 'DHS 1000,000',
-        'Balance_Amount' => 'DHS 5000,000',
-        'Date' => '15/01/2022',
-
-    ],
-    [
-
-        'Name' => 'Kouzbour',
-        'Payment_Shedule' => 'Kouzbour',
-        'Bill_Number' => '123456',
-        'Amount_Paid' => 'DHS 1000,000',
-        'Balance_Amount' => 'DHS 5000,000',
-        'Date' => '15/01/2022',
-
-    ],
-    [
-
-        'Name' => 'Kouzbour',
-        'Payment_Shedule' => 'Kouzbour',
-        'Bill_Number' => '123456',
-        'Amount_Paid' => 'DHS 1000,000',
-        'Balance_Amount' => 'DHS 5000,000',
-        'Date' => '15/01/2022',
-
-    ],
-    [
-
-        'Name' => 'Kouzbour',
-        'Payment_Shedule' => 'Kouzbour',
-        'Bill_Number' => '123456',
-        'Amount_Paid' => 'DHS 1000,000',
-        'Balance_Amount' => 'DHS 5000,000',
-        'Date' => '15/01/2022',
-    ]
-    ];
-
-    foreach ($pay_student as $tabpay){
-
+    foreach ($tab_pay as $tabpay){
             echo '<tr>
             <td>'.$tabpay['Name'].'</td>
             <td>'.$tabpay['Payment_Shedule'].'</td>
